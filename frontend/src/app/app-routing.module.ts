@@ -1,9 +1,9 @@
+import { ExamesCreateComponent } from './components/exames/exames-create/exames-create.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ExamesCreateComponent } from './components/exames/exames-create/exames-create.component';
-import { ExamesCrudComponent } from './views/exames-crud/exames-crud.component';
-import { HomeComponent } from './views/home/home.component';
+import {HomeComponent} from './views/home/home.component';
+import {ExamesCrudComponent} from './views/exames-crud/exames-crud.component';
 
 const routes: Routes = [
   {
