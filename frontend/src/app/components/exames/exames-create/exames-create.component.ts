@@ -14,8 +14,8 @@ export class ExamesCreateComponent implements OnInit {
 
   Exame: Exame = {
 
-    name:'',
-    data_coleta:29.02
+    name:'Teste - Covid-19',
+    data_coleta:2.11
   }
 
   constructor(private exameService: ExameService,
@@ -27,7 +27,7 @@ export class ExamesCreateComponent implements OnInit {
   createExame(): void {
     this.exameService.create(this.Exame).subscribe(() => {
 
-    this.exameService.showMassage('Exame incluído com sucesso')
+    this.exameService.showMassage('Exame incluso com sucesso')
     this.router.navigate(['/exames'])
   })
 
